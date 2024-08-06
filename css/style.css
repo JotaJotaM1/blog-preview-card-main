@@ -1,0 +1,95 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Figtree", sans-serif;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.cnt-img {
+    height: 231px;
+    background-image: url(../assets/images/illustration-article.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+}
+
+.btnLearnig {
+    width: 5rem;
+    height: 2rem;
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    font-weight: 800;
+    border-radius: 3px;
+}
+
+.date {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.text {
+    font-size: large;
+    line-height: 25px;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+
+.cnt-father {
+    margin: 5%;
+    max-width: 380px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 8px 7px 0px 0px black;
+}
+
+.cnt-info {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cnt-avatar{
+    display: flex;
+    align-items: center;
+}
+
+.image-avatar {
+    height: 50px;
+    margin-right: 16px;
+}
+.name{
+    font-weight: 900;
+}
+
+footer{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
